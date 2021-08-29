@@ -1,0 +1,37 @@
+@import "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css";
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+
+body {
+    font-family: "K2D";
+}
+.topnav {
+    overflow: hidden;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+#elem1 {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+#elem {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: #FBBF24;
+}
+
+.topnav #elem:hover {
+    background-color: #93C5FD;
+}
